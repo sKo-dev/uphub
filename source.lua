@@ -2072,7 +2072,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
         
         
             Scripts:AddButton("Domain X", function()
-                loadstring(game:HttpGet(('https://shlex.dev/release/domainx/latest.lua',true))()
+                loadstring(game:HttpGet(('https://shlex.dev/release/domainx/latest.lua'),true))()
             end)
 
             Scripts:AddButton("CMD-X", function()
