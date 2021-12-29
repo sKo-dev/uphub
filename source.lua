@@ -2066,12 +2066,13 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
             end)
 
-            Scripts:AddButton("Domain v1", function()
-                loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/mainDomain/main/source'),true))()
-            end)
-
             Scripts:AddButton("Domain v2", function()
                 loadstring(game:HttpGet(('https://shlex.dev/domain_v2'),true))()
+            end)
+        
+        
+            Scripts:AddButton("Domain X", function()
+                loadstring(game:HttpGet(('https://shlex.dev/release/domainx/latest.lua',true))()
             end)
 
             Scripts:AddButton("CMD-X", function()
@@ -2118,7 +2119,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 _G.CustomUI = false
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
             end)
-
+            
+            Scripts:AddButton("Brainpain", function()
+                loadstring(game:HttpGet(('https://bit.ly/brain_pain'),true))()
+            end)
             
             --Games
             Games:AddButton("Game Detect", function()
