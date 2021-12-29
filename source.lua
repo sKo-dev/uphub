@@ -2038,89 +2038,89 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
 
         do
             --Scripts
-            Scripts:AddButton("xxHub", function()  
+        local ScriptPage1 = Scripts:AddFolder("Page 1")
+            ScriptPage1:AddButton("xxHub", function()  
                 loadstring(game:HttpGet(('https://pastebin.com/raw/YVE4njap'),true))()
             end)
 
-            Scripts:AddButton("NullWare", function()
+            ScriptPage1:AddButton("NullWare", function()
                 loadstring(game:HttpGet(('https://rathena.kpaste.net/d20885f?raw'),true))()
             end)
 
-            Scripts:AddButton("Owl Hub", function()
+            ScriptPage1:AddButton("Owl Hub", function()
                 loadstring(game:HttpGet(('https://pastebin.com/raw/MWb3by6b'),true))()
             end)
 
-            Scripts:AddButton("Dark Hub", function()
+            ScriptPage1:AddButton("Dark Hub", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
             end)
 
-            Scripts:AddButton("CocoZ Hub", function()
+            ScriptPage1:AddButton("CocoZ Hub", function()
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/CocoHub/master/CocoZHub'),true))()
             end)
 
-            Scripts:AddButton("CocoAimbot", function()
+            ScriptPage1:AddButton("CocoAimbot", function()
                 loadstring(game:HttpGet(('pastebin.com/raw/SgCan6hr'),true))()
             end)
 
-            Scripts:AddButton("EZ Hub", function()
+            ScriptPage1:AddButton("EZ Hub", function()
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
             end)
 
-            Scripts:AddButton("Domain v2", function()
+            ScriptPage1:AddButton("Domain v2", function()
                 loadstring(game:HttpGet(('https://shlex.dev/domain_v2'),true))()
             end)
-        
-        
-            Scripts:AddButton("Domain X", function()
+         
+            ScriptPage1:AddButton("Domain X", function()
                 loadstring(game:HttpGet(('https://shlex.dev/release/domainx/latest.lua'),true))()
             end)
 
-            Scripts:AddButton("CMD-X", function()
+            ScriptPage1:AddButton("CMD-X", function()
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-X/CMD-X/master/CMD-X'),true))()
             end)
 
-            Scripts:AddButton("Shiba Hub (Free Hub)", function()
+            ScriptPage1:AddButton("Shiba Hub (Free Hub)", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/rawget69420/Shiba/main/main.lua"))()
             end)
 
-            Scripts:AddButton("Monkey Hub", function()
+            ScriptPage1:AddButton("Monkey Hub", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeHub/main/Loader.lua"))()
             end)
 
-            Scripts:AddButton("Snow Hub", function()
+            ScriptPage1:AddButton("Snow Hub", function()
                 loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
             end)
 
-            Scripts:AddButton("Mizt Hub", function()
+            ScriptPage1:AddButton("Mizt Hub", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
             end)
 
-            Scripts:AddButton("Ancient Hub", function()
+            ScriptPage1:AddButton("Ancient Hub", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/main/Ancient-hub", true))()
             end)
 
-            Scripts:AddButton("Animation Stealer", function()
+            ScriptPage1:AddButton("Animation Stealer", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredSniper/Kenzen/master/AnimationStealer.lua"))()
             end)
 
-            Scripts:AddButton("Custom Chat", function()
+            ScriptPage1:AddButton("Custom Chat", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/3186ac6371a2fd6c4c56090695d11043ca499b70/Custom-chat",true))()
             end)
 
-            Scripts:AddButton("Xenny Ware", function()
+            ScriptPage1:AddButton("Xenny Ware", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua",true))()
             end)
 
-            Scripts:AddButton("Hitbox Extender", function()
+            ScriptPage1:AddButton("Hitbox Extender", function()
                 loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
             end)
 
-            Scripts:AddButton("Homebrew Admin", function()
+            ScriptPage1:AddButton("Homebrew Admin", function()
                 _G.CustomUI = false
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
             end)
             
-            Scripts:AddButton("Brainpain", function()
+            ScriptPage1:AddButton("Brainpain", function()
                 loadstring(game:HttpGet(('https://bit.ly/brain_pain'),true))()
             end)
             
