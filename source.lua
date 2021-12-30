@@ -2291,7 +2291,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GamePage3:AddButton("Type Race Autotyper", function()
                 loadstring(game:HttpGet("https://pastebin.com/raw/bewtPApV",true))()
             end)
-
+        
+            GamePage3:AddButton("Epic Minigames", function()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/epic/main/epic",true))()
+            end)
             --Game TP
 
             local GameTpPage1 = GameTP:AddFolder("Page 1")
