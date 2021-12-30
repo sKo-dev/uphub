@@ -2119,8 +2119,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 _G.CustomUI = false
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
             end)
-            
-            ScriptPage1:AddButton("Brainpain", function()
+        
+            local ScriptPage2 = Script:AddFolder("Page 2")
+        
+            ScriptPage2:AddButton("Brainpain", function()
                 loadstring(game:HttpGet(('https://bit.ly/brain_pain'),true))()
             end)
             
