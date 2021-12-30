@@ -2456,8 +2456,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
 
             --Credits
             Credits:AddLabel("UpHub by sKo")
-            Credits:AddLabel("New UI help The... Lolik?#1001")
-            Credits:AddLabel("UI by 0xSingularity (on v3rm)")
+            Credits:AddLabel("Main Developer - conner#0249")
         end
 
         Scripts:Show()
