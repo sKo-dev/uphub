@@ -2284,7 +2284,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GamePage3:AddButton("Hexa Game (Squid Game)", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/main/HexaGame",true))()
             end)
-
+        
+            GamePage3:AddButton("Type Race Autotyper", function()
+                loadstring(game:HttpGet("https://pastebin.com/raw/bewtPApV",true))()
+            end)
 
             --Game TP
 
