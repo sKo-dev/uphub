@@ -2103,24 +2103,24 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredSniper/Kenzen/master/AnimationStealer.lua"))()
             end)
 
-            ScriptPage1:AddButton("Custom Chat", function()
+            local ScriptPage2 = Scripts:AddFolder("Page 2")
+        
+            ScriptPage2:AddButton("Custom Chat", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/3186ac6371a2fd6c4c56090695d11043ca499b70/Custom-chat",true))()
             end)
 
-            ScriptPage1:AddButton("Xenny Ware", function()
+            ScriptPage2:AddButton("Xenny Ware", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua",true))()
             end)
 
-            ScriptPage1:AddButton("Hitbox Extender", function()
+            ScriptPage2:AddButton("Hitbox Extender", function()
                 loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
             end)
 
-            ScriptPage1:AddButton("Homebrew Admin", function()
+            ScriptPage2:AddButton("Homebrew Admin", function()
                 _G.CustomUI = false
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
             end)
-        
-            local ScriptPage2 = Scripts:AddFolder("Page 2")
         
             ScriptPage2:AddButton("Brainpain", function()
                 loadstring(game:HttpGet(('https://bit.ly/brain_pain'),true))()
