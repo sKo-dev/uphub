@@ -2128,7 +2128,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             
             --Games
             Games:AddButton("Game Detect", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/main/GameDetect_New", true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/sKo-dev/uphub/main/gamedetect", true))()
             end)
             local GamePage1 = Games:AddFolder("Page 1")
 
@@ -2458,8 +2458,9 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
 
             --Credits
-            Credits:AddLabel("UpHub by sKo")
+            Credits:AddLabel("UpHub by sKo group")
             Credits:AddLabel("Main Developer - conner#0249")
+            Credits:AddLabel("Helper - who#5301")
         end
 
         Scripts:Show()
