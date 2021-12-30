@@ -2407,6 +2407,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GameTpPage2:AddButton("Hexa Game", function()
                 game:GetService('TeleportService'):Teleport(7555007091)
             end)
+        
+            GameTpPage2:AddButton("Type Race!", function()
+                game:GetService('TeleportService'):Teleport(7232779505)
+            end)
 
             GameTP:AddTextBox("Custom Game TP", function(gametpuphub)
                 game:GetService('TeleportService'):Teleport(gametpuphub)
