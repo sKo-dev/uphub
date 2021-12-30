@@ -1,0 +1,67 @@
+local market = game:GetService("MarketplaceService")
+if game.PlaceId == 2768379856 then --scp-3008
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/InveII/Wulphset/main/SCP-3008.lua",true))()
+elseif game.PlaceId == 1600503 then --Apocalypse Rising
+    loadstring(game:HttpGet("https://pastebin.com/raw/eCCmuezM", true))()
+elseif game.PlaceId == 301549746 then --CB:RO
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/venosu/Hex-Hub/main/hexhub.lua'))()
+elseif game.PlaceId == 606849621 then --Jailbreak
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+elseif game.PlaceId == 142823291 then --MM2
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+elseif game.PlaceId == 155615604 then --Prison Life
+    loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
+elseif game.PlaceId == 621129760 then --KAT
+    loadstring(game:HttpGet('https://pastebin.com/raw/3FJQaTN8'))()
+elseif game.PlaceId == 2788229376 then --Da Hood
+    getgenv().ChatLogs = false
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NBZion/Astolfo-Hub/main/AstolfLoader.lua",true))()
+elseif game.PlaceId == 13822889 then --Lumber Tycoon
+    loadstring(game:HttpGet("https://pastebin.pl/view/raw/38519648", true))()
+elseif game.PlaceId == 2039118386 then --Neighborhood war
+    loadstring(game:HttpGet("https://risa.gq/Samuel/neighborhoodwar.txt", true))()
+elseif game.PlaceId == 2317712696 then --The Wild West
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Drifter0507/scripts/main/tww', true))()
+elseif game.PlaceId == 6872265039 then --Bedwars
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/loadstring", true))()
+elseif game.PlaceId == 6664138223 then --RIOT
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+elseif game.PlaceId == 2882332175 then --Be Dead Forever Simulator
+    loadstring(game:HttpGet('https://paste.ee/r/Z0cFY'))()
+elseif game.PlaceId == 698448212 then --RoBeats
+    loadstring(game:HttpGet("https://pastebin.com/raw/Z4raAYLS", true))()
+elseif game.PlaceId == 648362523 then --Breaking Point
+    loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
+elseif game.PlaceId == 6447798030 then --Funky Friday
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+elseif game.PlaceId == 189707 then --Natural Disaster Survival
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/7c75386107937fa006304efd24543ad4/raw/8d759dfcd95d39949c692735cfdf62baec0bf835/cafwetweg", true))()
+elseif game.PlaceId == 48994649 then --Bloodfest
+    loadstring(game:HttpGet("https://pastebin.com/raw/BK443fsJ", true))()
+elseif game.PlaceId == 192800 then --Work At a Pizza Place
+    loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/b19b733fb8e9e0299381653c50e21e49/raw/a0c7394ba4451c6c548979103aea600d89b70f32/xxxcccc", true))()
+elseif game.PlaceId == 4169490976 then --Mortem
+    loadstring(game:HttpGet("https://risa.gq/Samuel/Mortem.txt", true))()
+elseif game.PlaceId == 5985232436 then -- Smile
+    loadstring(game:HttpGet("https://pastebin.com/raw/WG1BMS72",true))()
+elseif game.PlaceId == 4598019433 then --grg
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/Generic_GUI"))()
+elseif game.PlaceId == 292439477 then -- nah, its Phantom Forces.
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikehalesdev/Public/main/Script.lua",true))()
+elseif game.PlaceId == 445664957 then -- Parkour
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacks/Parkour/main/Main.lua",true))()
+elseif game.PlaceId == 1962086868 then --Toh
+    loadstring(game:HttpGet("https://paste.c-net.org/MoppingOptimist", true))()
+elseif game.PlaceId == 6859865958 then --YouTube Simulator
+    loadstring(game:HttpGet("https://paste.c-net.org/BabetteClouded", true))()
+elseif game.PlaceId == 6872265039 then --Bad Wars :)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/loadstring", true))()
+elseif game.PlaceId == 4581966615 then -- Anomic
+    loadstring(game:HttpGet("https://pastebin.pl/view/raw/63829990",true))()
+elseif game.PlaceId == 7555007091 then -- Hexa Game
+    loadstring(game:HttpGet("https://pastebin.com/raw/9hSCwfLa",true))()
+elseif game.PlaceId == 5670218884 then -- item asylum
+    loadstring(game:HttpGet("http://gameovers.net/Scripts/Free/HitboxExpander/main.lua", true))()
+else
+    print("Game not found.")
+end
