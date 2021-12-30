@@ -2293,7 +2293,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
         
             GamePage3:AddButton("Epic Minigames", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/epic/main/epic"))()
+               loadstring(game:HttpGet("https://pastebin.com/raw/YePwz5u5", true))()
             end)
             --Game TP
 
