@@ -2256,10 +2256,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet("https://pastebin.com/raw/WG1BMS72",true))()
             end)
 
-            GamePage3:AddButton("generic roleplay gaem.", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/main/grg",true))()
-            end)
-
             GamePage3:AddButton("Phantom Forces", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/mikehalesdev/Public/main/Script.lua",true))()
             end)
