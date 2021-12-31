@@ -2281,7 +2281,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
 
             GamePage3:AddButton("Anomic", function()
-                loadstring(game:HttpGet("https://pastebin.pl/view/raw/63829990",true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptXHub/DiscordHiReplyBot-OLD-DOESNT-WORK-broken-/main/jjsongcatch",true))()
             end)
 
             GamePage3:AddButton("Hexa Game (Squid Game)", function()
