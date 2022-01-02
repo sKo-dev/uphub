@@ -2043,10 +2043,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet(('https://pastebin.com/raw/YVE4njap'),true))()
             end)
 
-            ScriptPage1:AddButton("NullWare", function()
-                loadstring(game:HttpGet(('https://rathena.kpaste.net/d20885f?raw'),true))()
-            end)
-
             ScriptPage1:AddButton("Owl Hub", function()
                 loadstring(game:HttpGet(('https://pastebin.com/raw/MWb3by6b'),true))()
             end)
@@ -2057,10 +2053,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
 
             ScriptPage1:AddButton("CocoZ Hub", function()
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/MarsQQ/CocoHub/master/CocoZHub'),true))()
-            end)
-
-            ScriptPage1:AddButton("CocoAimbot", function()
-                loadstring(game:HttpGet(('pastebin.com/raw/SgCan6hr'),true))()
             end)
 
             ScriptPage1:AddButton("EZ Hub", function()
@@ -2079,24 +2071,12 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet(('https://raw.githubusercontent.com/CMD-X/CMD-X/master/CMD-X'),true))()
             end)
 
-            ScriptPage1:AddButton("Shiba Hub (Free Hub)", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/rawget69420/Shiba/main/main.lua"))()
-            end)
-
             ScriptPage1:AddButton("Monkey Hub", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeHub/main/Loader.lua"))()
             end)
 
             ScriptPage1:AddButton("Snow Hub", function()
                 loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
-            end)
-
-            ScriptPage1:AddButton("Mizt Hub", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
-            end)
-
-            ScriptPage1:AddButton("Ancient Hub", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/main/Ancient-hub", true))()
             end)
 
             ScriptPage1:AddButton("Animation Stealer", function()
@@ -2107,10 +2087,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
         
             ScriptPage2:AddButton("Custom Chat", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/3186ac6371a2fd6c4c56090695d11043ca499b70/Custom-chat",true))()
-            end)
-
-            ScriptPage2:AddButton("Xenny Ware", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/xennyy/Xenny-Ware/main/loader.lua",true))()
             end)
 
             ScriptPage2:AddButton("Hitbox Extender", function()
@@ -2148,39 +2124,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
             end)
 
-            GamePage1:AddButton("MM2", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
-            end)
-
             GamePage1:AddButton("Prison Life", function()
                 loadstring(game:HttpGet("https://pastebin.com/raw/mHfK0Xk4", true))()
             end)
-
-            GamePage1:AddButton("KAT (1st)", function()
-                loadstring(game:HttpGet('https://pastebin.com/raw/3FJQaTN8'))()
-            end)
-
-            GamePage1:AddButton("KAT (2nd)", function()
-                loadstring(game:HttpGet("https://pastebin.com/raw/6rd91GZx", true))()
-            end)
-
-            GamePage1:AddButton("Da Hood - Raycodex", function()
-                loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
-            end)
-
-            GamePage1:AddButton("Da Hood - Valiant", function()
-                loadstring(game:HttpGet(('https://pastebin.com/raw/HVq3Nts3'),true))()
-            end)
-
-            GamePage1:AddButton("Da Hood - Astolf", function()
-                getgenv().ChatLogs = false
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/NBZion/Astolfo-Hub/main/AstolfLoader.lua",true))()
-            end)
-
-            GamePage1:AddButton("Da Hood - Faded", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
-            end)
-
+        
             GamePage1:AddButton("Da Hood - Swag Mode", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002",true))()
             end)
@@ -2199,20 +2146,8 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
             end)
 
-            GamePage2:AddButton("Be Dead Forever Sim.", function()
-                loadstring(game:HttpGet('https://paste.ee/r/Z0cFY',true))()
-            end)
-
-            GamePage2:AddButton("RoBeats AutoPlay", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/main/RoBeats-AutoPlay", true))()
-            end)
-
             GamePage2:AddButton("Breaking Point", function()
                 loadstring(game:HttpGet("https://snowhub.dev/script.lua", true))()
-            end)
-
-            GamePage2:AddButton("Funky Friday", function()
-                loadstring(game:HttpGet("https://pastebin.com/raw/b8Uwubj4",true))()
             end)
 
             GamePage2:AddButton("Natural Disaster Survival", function() --189707
@@ -2230,9 +2165,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GamePage2:AddButton("Electric State 1st", function() --2262441883
                 loadstring(game:HttpGet("https://pastebin.com/raw/nv9EyBBd", true))()
             end)
-            GamePage2:AddButton("Lumber Tycoon 2", function()
-                loadstring(game:HttpGet("https://pastebin.pl/view/raw/38519648", true))()
-            end)
 
             GamePage2:AddButton("The Wild West", function()
                 loadstring(game:HttpGet('https://raw.githubusercontent.com/Drifter0507/scripts/main/tww'))()
@@ -2244,32 +2176,16 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
 
             local GamePage3 = Games:AddFolder("Page 3")
 
-            GamePage3:AddButton("Electric State", function()
-                loadstring(game:HttpGet("https://pastebin.com/raw/D90Wstmh", true))()
-            end)
-            
-            GamePage3:AddButton("Mortem Metallum", function()
-                loadstring(game:HttpGet("https://risa.gq/Samuel/Mortem.txt", true))()
-            end)
-            
             GamePage3:AddButton("Infectious Smile", function()
                 loadstring(game:HttpGet("https://pastebin.com/raw/WG1BMS72",true))()
             end)
 
             GamePage3:AddButton("Phantom Forces", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/mikehalesdev/Public/main/Script.lua",true))()
+                loadstring(game:HttpGet("https://ehub.fun/raw/script.lua",true))()
             end)
 
             GamePage3:AddButton("Parkour", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/LegoHacks/Parkour/main/Main.lua", true))()
-            end)
-
-            GamePage3:AddButton("Funky Friday song blocker", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/FunkyFriday_Blocker", true))()
-            end)
-
-            GamePage3:AddButton("Tower Of Hell", function()
-                loadstring(game:HttpGet("https://paste.c-net.org/MoppingOptimist", true))()
             end)
 
             GamePage3:AddButton("YouTube Simulator", function()
@@ -2295,9 +2211,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
 
             local GameTpPage1 = GameTP:AddFolder("Page 1")
 
-            GameTpPage1:AddButton("SCP-3008", function()
-                game:GetService('TeleportService'):Teleport(2768379856)
-            end)
             GameTpPage1:AddButton("Apocalypse Rising", function()
                 game:GetService('TeleportService'):Teleport(1600503)
             end)
@@ -2319,12 +2232,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GameTpPage1:AddButton("Da Hood", function()
                 game:GetService('TeleportService'):Teleport(2788229376)
             end)
-            GameTpPage1:AddButton("Lumber Tycoon", function()
-                game:GetService('TeleportService'):Teleport(13822889)
-            end)
-            GameTpPage1:AddButton("SaKtKiA 51", function()
-                game:GetService('TeleportService'):Teleport(155382109)
-            end)
             GameTpPage1:AddButton("Neighborhood war", function()
                 game:GetService('TeleportService'):Teleport(2039118386)
             end)
@@ -2344,17 +2251,8 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             local GameTpPage2 = GameTP:AddFolder("Page 2")
 
             
-            GameTpPage2:AddButton("Be Dead Forever Simulator", function()
-                game:GetService('TeleportService'):Teleport(2882332175)
-            end)
-            GameTpPage2:AddButton("RoBeats", function()
-                game:GetService('TeleportService'):Teleport(698448212)
-            end)
             GameTpPage2:AddButton("Breaking Point", function()
                 game:GetService('TeleportService'):Teleport(648362523)
-            end)
-            GameTpPage2:AddButton("Funky Friday", function()
-                game:GetService('TeleportService'):Teleport(6447798030)
             end)
             GameTpPage2:AddButton("Natural Disaster Survival", function()
                 game:GetService('TeleportService'):Teleport(189707)
@@ -2370,20 +2268,8 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 game:GetService('TeleportService'):Teleport(2262441883)
             end)
 
-            GameTpPage2:AddButton("Mortem Metallum", function()
-                game:GetService('TeleportService'):Teleport(4169490976)
-            end)
-
             GameTpPage2:AddButton("Infectious Smile", function()
                 game:GetService("TeleportService"):Teleport(5985232436)
-            end)
-
-            GameTpPage2:AddButton("Wacky Wizards", function()
-                game:GetService('TeleportService'):Teleport(6888253864)
-            end)
-
-            GameTpPage2:AddButton("generic roleplay gaem.", function()
-                game:GetService('TeleportService'):Teleport(4598019433)
             end)
 
             GameTpPage2:AddButton("Phantom Forces", function()
@@ -2392,10 +2278,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
 
             GameTpPage2:AddButton("Parkour", function()
                 game:GetService('TeleportService'):Teleport(445664957)
-            end)
-
-            GameTpPage2:AddButton("Tower Of Hell", function()
-                game:GetService('TeleportService'):Teleport(1962086868)
             end)
 
             GameTpPage2:AddButton("YouTube Simulator", function()
