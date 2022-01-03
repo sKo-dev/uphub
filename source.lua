@@ -2207,6 +2207,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GamePage3:AddButton("Epic Minigames", function()
                loadstring(game:HttpGet("https://pastebin.com/raw/YePwz5u5", true))()
             end)
+        
+            GamePage3:AddButton("Zombie Rush", function()
+               loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+            end)
             --Game TP
 
             local GameTpPage1 = GameTP:AddFolder("Page 1")
@@ -2246,6 +2250,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
             GameTpPage1:AddButton("RIOT", function()
                 game:GetService('TeleportService'):Teleport(6664138223)
+            end)
+        
+            GameTpPage1:AddButton("Epic Minigames", function()
+                game:GetService('TeleportService'):Teleport(277751860)
             end)
 
             local GameTpPage2 = GameTP:AddFolder("Page 2")
@@ -2294,6 +2302,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
         
             GameTpPage2:AddButton("Type Race!", function()
                 game:GetService('TeleportService'):Teleport(7232779505)
+            end)
+        
+            GameTpPage2:AddButton("Zombie Rush", function()
+                game:GetService('TeleportService'):Teleport(137885680)
             end)
 
             GameTP:AddTextBox("Custom Game TP", function(gametpuphub)
