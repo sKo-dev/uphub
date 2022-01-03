@@ -2239,7 +2239,11 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
         
             GamePage3:Button("KAT", function()
                 loadstring(game:HttpGet(('https://pastebin.com/raw/MWb3by6b'),true))()
-           end)  
+            end)  
+        
+            GamePage3:AddButton("grg",function()
+                loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/Generic_GUI"))()
+            end)
             --Game TP
 
             local GameTpPage1 = GameTP:AddFolder("Page 1")
