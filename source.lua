@@ -2101,6 +2101,14 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             ScriptPage2:AddButton("Brainpain", function()
                 loadstring(game:HttpGet(('https://bit.ly/brain_pain'),true))()
             end)
+        
+            ScriptPage2:AddButton("Infinite Yield", function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source',true))()
+            end)
+        
+           ScriptPage2:AddButton("Infinite Store", function()
+                loadstring(game:HttpGet(('https://raw.githubusercontent.com/Infinite-Store/Infinite-Store/main/main.lua'),true))()
+            end)
             
             --Games
             Games:AddButton("Game Detect", function()
@@ -2209,7 +2217,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
         
             GamePage3:AddButton("Zombie Rush", function()
-               loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+               loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
             end)
             --Game TP
 
