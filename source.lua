@@ -2223,7 +2223,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                loadstring(game:HttpGet("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/Generic_GUI",true))()
             end)
         
-            GamePage3:Button("KAT", function()
+            GamePage3:AddButton("KAT", function()
                loadstring(game:HttpGet("https://pastebin.com/raw/MWb3by6b",true))()
             end)
         
