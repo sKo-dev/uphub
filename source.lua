@@ -2219,6 +2219,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GamePage3:AddButton("Zombie Rush", function()
                loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
             end)
+        
             GamePage3:Button("scp3008",function()
             local notifLib = loadstring(game:HttpGet(('https://gist.githubusercontent.com/lokk1y-dev/adbd2be45ba69c4ce71a39bcb4b8899a/raw/c1041fd9cff9b4e1ae5fdf619ef6582592d1a6f4/notifLib.lua'),true))()
              notifLib.prompt('Notification', 'AntiFallDamage now is enabled!', 16)
@@ -2235,6 +2236,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
           return oldnc(name, unpack(Args))
               end))
               end)
+        
+            GamePage3:Button("KAT", function()
+                loadstring(game:HttpGet(('https://pastebin.com/raw/MWb3by6b'),true))()
+           end)  
             --Game TP
 
             local GameTpPage1 = GameTP:AddFolder("Page 1")
