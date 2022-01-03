@@ -2217,14 +2217,14 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
         
             GamePage3:AddButton("Zombie Rush", function()
-               loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",true))()
             end)
             GamePage3:AddButton("grg",function()
                loadstring(game:HttpGet("https://raw.githubusercontent.com/JustEzpi/ROBLOX-Scripts/main/Generic_GUI",true))()
             end)
         
             GamePage3:Button("KAT", function()
-               loadstring(game:HttpGet(('https://pastebin.com/raw/MWb3by6b'),true))()
+               loadstring(game:HttpGet("https://pastebin.com/raw/MWb3by6b",true))()
             end)
         
             --Game TP
