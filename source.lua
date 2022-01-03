@@ -2228,7 +2228,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                loadstring(game:HttpGet("https://pastebin.com/raw/MWb3by6b",true))()
             end)
             
-            GamePage3:Button("scp3008",function()
+            GamePage3:AddButton("scp3008",function()
             local notifLib = loadstring(game:HttpGet(('https://gist.githubusercontent.com/lokk1y-dev/adbd2be45ba69c4ce71a39bcb4b8899a/raw/c1041fd9cff9b4e1ae5fdf619ef6582592d1a6f4/notifLib.lua'),true))()
             notifLib.prompt('Notification', 'AntiFallDamage now is enabled!', 16)
             local oldnc
