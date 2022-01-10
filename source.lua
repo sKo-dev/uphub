@@ -2373,6 +2373,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 setclipboard("https://tinyurl.com/uphub-discord")
                 print("https://tinyurl.com/uphub-discord")
             end)
+		  Others:AddButton("Human Helicopter", function()
+                loadstring(game:HttpGet("https://pastebin.com/raw/GgSBeVJH", true))()
+            end)
+
 
             local SES = Games:AddFolder("Set Executor Script")
 
