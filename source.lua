@@ -2376,6 +2376,11 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
 		  Others:AddButton("Human Helicopter", function()
                 loadstring(game:HttpGet("https://pastebin.com/raw/GgSBeVJH", true))()
             end)
+		  Others:AddButton("Rejoin", function()
+                local ts = game:GetService("TeleportService")
+		local p = game:GetService("Players").LocalPlayer
+		ts:Teleport(game.PlaceId, p)
+            end)
 
 
             local SES = Games:AddFolder("Set Executor Script")
