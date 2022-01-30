@@ -2205,7 +2205,17 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
 
             GamePage3:AddButton("Tower of Hell", function()
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/Loader",true))()
+                pcall(function()
+  		 if game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/"..game.PlaceId) then
+   		 loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/"..game.PlaceId))()
+  			  end 
+		end)
+
+		pcall(function()
+		if game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/"..game.GameId) then
+    		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/"..game.GameId))()
+    		end
+		end)
             end)
 		
             GamePage3:AddButton("Hexa Game (Squid Game)", function()
