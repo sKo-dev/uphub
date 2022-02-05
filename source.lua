@@ -2204,18 +2204,8 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptXHub/DiscordHiReplyBot-OLD-DOESNT-WORK-broken-/main/jjsongcatch",true))()
             end)
 
-            GamePage3:AddButton("Tower of Hell", function()
-                pcall(function()
-  		 if game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/"..game.PlaceId) then
-   		 loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/"..game.PlaceId))()
-  			  end 
-		end)
-
-		pcall(function()
-		if game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/"..game.GameId) then
-    		loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/CheetoHub/main/"..game.GameId))()
-    		end
-		end)
+ 	   GamePage3:AddButton("Flee the Facility", function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
             end)
 		
             GamePage3:AddButton("Hexa Game (Squid Game)", function()
