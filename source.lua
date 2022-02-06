@@ -2143,6 +2143,11 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GamePage1:AddButton("Neighbourhood War", function()
                 loadstring(game:HttpGet("https://risa.gq/Samuel/neighborhoodwar.txt"))()
             end)
+		
+ 	   GamePage1:AddButton("Broken Bones Simulator", function()
+                local ohNumber1 = math.huge
+		game:GetService("ReplicatedStorage").Remotes.Player_AddInjury:Fire(ohNumber1)
+            end)
 
             local GamePage2 = Games:AddFolder("Page 2")
 
