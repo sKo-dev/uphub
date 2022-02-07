@@ -2186,6 +2186,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GamePage2:AddButton("BedWars", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/loadstring", true))()
             end)
+		
+            GamePage3:AddButton("Base Battles", function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
+            end)
 
             local GamePage3 = Games:AddFolder("Page 3")
 
