@@ -2187,7 +2187,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/loadstring", true))()
             end)
 		
-            GamePage3:AddButton("Base Battles", function()
+            GamePage2:AddButton("Base Battles", function()
                 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
             end)
 
@@ -2225,6 +2225,10 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
                loadstring(game:HttpGet("https://pastebin.com/raw/YePwz5u5", true))()
             end)
         
+ 	   GamePage3:AddButton("Flee the Facility", function()
+                loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
+            end)
+		
             GamePage3:AddButton("Zombie Rush", function()
                loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub",true))()
             end)
