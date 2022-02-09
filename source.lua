@@ -2212,10 +2212,6 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             GamePage3:AddButton("Anomic", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptXHub/DiscordHiReplyBot-OLD-DOESNT-WORK-broken-/main/jjsongcatch",true))()
             end)
-
- 	   GamePage3:AddButton("Flee the Facility", function()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
-            end)
 		
             GamePage3:AddButton("Hexa Game (Squid Game)", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roblox-Loadstring/Loadstrings/main/HexaGame",true))()
