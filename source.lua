@@ -2188,7 +2188,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
 		
             GamePage2:AddButton("Base Battles", function()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub", true))()
             end)
 
             local GamePage3 = Games:AddFolder("Page 3")
@@ -2226,7 +2226,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             end)
         
  	   GamePage3:AddButton("Flee the Facility", function()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub',true))()
+               loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub", true))()
             end)
 		
             GamePage3:AddButton("Zombie Rush", function()
