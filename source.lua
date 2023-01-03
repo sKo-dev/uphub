@@ -2117,7 +2117,7 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             local GamePage1 = Games:AddFolder("Page 1")
 
             GamePage1:AddButton("Murder Mystery 2", function()
-                loadstring(game:HttpGet("https://pastebin.com/raw/QVc4Qtqs", true))()
+                loadstring(game:HttpGet("https://pastebin.com/raw/ydnSkbHn", true))()
             end)
         
             GamePage1:AddButton("Apocalypse Rising", function()
