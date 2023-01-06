@@ -2082,7 +2082,11 @@ local isSuc, info = pcall(market.GetProductInfo,market,game.PlaceId)
             ScriptPage1:AddButton("Animation Stealer", function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/CenteredSniper/Kenzen/master/AnimationStealer.lua"))()
             end)
-
+		
+            ScriptPage1:AddButton("Pearl Hub", function()
+                loadstring(game:HttpGet('https://ppearl.vercel.app'))()
+            end)
+		
             local ScriptPage2 = Scripts:AddFolder("Page 2")
         
             ScriptPage2:AddButton("Custom Chat", function()
